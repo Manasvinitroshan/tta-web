@@ -16,7 +16,7 @@ const About = () => {
                 Theta Tau Alpha aims to develop and maintain a high standard of professional interest among its members, uniting them in a strong bond of fraternal fellowship. Dedicated to engineering leaders for service, profession, and brotherhood, we provide an affordable professional Greek life experience that offers career-building and networking opportunities.
                 </p>
 
-                <button className='bg-[black] w-32 rounded-md text-white font-medium my-6 py-3 mx-auto md:mx-0'>Brotherhood</button>
+                <button className='bg-[black] w-32 rounded-md text-white font-medium my-6 py-3 mx-auto md:mx-0'>Brothers</button>
             </div>
 
            
