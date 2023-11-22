@@ -6,19 +6,20 @@ import Newsletter from './components/Newsletter';
 import Cards from './components/Cards';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Brothers from './components/Brothers';
-import Home from './components/Home';
 
-function App(){
+function LandingPage(){
   return(
 
-    <BrowserRouter>
-    <Routes>
-    <Route path = '/' element = {<Home/>}/>
-    <Route path = '/Brothers' element = {<Brothers/>}/>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Newsletter/>
+      <Cards/>
 
-    </Routes>
-    </BrowserRouter>
+     
+    </div>
 
   );
 }
-export default App
+export default LandingPage

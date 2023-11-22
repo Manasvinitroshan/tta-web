@@ -1,9 +1,11 @@
 import React, {useState} from 'react'
 import '/Users/manassingh/Desktop/TTA-Website/ttaweb/src/index.css'; // Import your styles
 import {AiOutlineAim, AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
+  const navigate = useNavigate()
   const [nav,setNav]= useState(false)
   const handleNav = () => {
 
@@ -17,7 +19,7 @@ const Navbar = () => {
         </h1>
         <ul className='hidden md:flex'>
 
-          <li className='p-4'>Brothers</li>
+          <li className='p-4' type="submit" onClick={() => navigate('Brothers')}>Brothers</li>
           <li className='p-4'>Rush</li>
           <li className='p-4'>Sponsors</li>
           <li className='p-4'>FAQ's</li>

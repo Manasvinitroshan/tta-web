@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 className='md: text-7xl sm:text-6xl  font-bold md: py-6'>UTD'S PREMIER ENGINEERING FRATERNITY </h1>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-6xl text-xl font-bold py-4'>A one of its kind fraternity for</p>
-                <Typed className='md:text-5xl sm:text-6xl text-xl font-bold pl-2' strings={['professional development.','service.','brotherhood.']} typeSpeed={120} backSpeed={140} loop/>
+                <Typed className='md:text-5xl sm:text-6xl text-xl font-bold pl-2' strings={['profession.','service.','brotherhood.']} typeSpeed={75} backSpeed={75} loop/>
                
             </div>
 
