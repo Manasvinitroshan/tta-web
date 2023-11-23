@@ -3,6 +3,7 @@ import Brother from '../assets/brother.png'
 import Service from '../assets/service.png'
 import PD from '../assets/PD.png'
 
+
 const Cards = () => {
   return (
     <div className='w-full py-[10rem] px-4 bg-white'>

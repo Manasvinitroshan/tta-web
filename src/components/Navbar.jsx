@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import '/Users/manassingh/Desktop/TTA-Website/ttaweb/src/index.css'; // Import your styles
 import {AiOutlineAim, AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
-import { useNavigate } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -12,15 +12,19 @@ const Navbar = () => {
     setNav(!nav)
 
   }
+
+
+
+
   return (
     <div className='text-white flex justify-between items-center h-24 max-w-[1240 px] mx-auto px-4'>
-        <h1 className='w-full font-bold text-3xl '>
+        <h1 className='w-full font-bold text-3xl ' type="submit" onClick={() => navigate('/')}>
         ΘTA.
         </h1>
         <ul className='hidden md:flex'>
 
-          <li className='p-4' type="submit" onClick={() => navigate('Brothers')}>Brothers</li>
-          <li className='p-4'>Rush</li>
+          <li className='p-4' type="submit" onClick={() => navigate('/Brothers')}>Brothers</li>
+          <li className='p-4' type="submit" onClick={() => navigate('/Rush')}>Rush</li>
           <li className='p-4'>Sponsors</li>
           <li className='p-4'>FAQ's</li>
           <li className='p-4'>Socials</li>

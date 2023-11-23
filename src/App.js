@@ -7,6 +7,7 @@ import Cards from './components/Cards';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Brothers from './components/Brothers';
 import Home from './components/Home';
+import Rush from './components/Rush';
 
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
     <Routes>
     <Route path = '/' element = {<Home/>}/>
     <Route path = '/Brothers' element = {<Brothers/>}/>
+    <Route path = '/Rush' element = {<Rush/>}/>
 
     </Routes>
     </BrowserRouter>
