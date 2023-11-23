@@ -1,8 +1,9 @@
 import React from 'react'
 import Typed from 'react-typed'
 import Button from '@mui/material/Button';
-
+import { useNavigate} from 'react-router-dom';
 const Hero = () => {
+  const navigate = useNavigate()
   return (
     <div className='text-white'>
 
@@ -18,7 +19,7 @@ const Hero = () => {
 
             <div className='justify-center'>
                     
-                    <button className='bg-[white] w-32 rounded-md text-black font-medium my-6 py-3 mx-auto'>RUSH</button>
+                    <button className='bg-[white] w-32 rounded-md text-black font-medium my-6 py-3 mx-auto' type="submit" onClick={() => navigate('/Rush')}>RUSH</button>
                 </div>
 
 
