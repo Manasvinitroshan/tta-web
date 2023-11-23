@@ -664,7 +664,7 @@ const Brothers = () => {
 
 
 
-                <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white mb-8'>
+                <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white '>
 
                     <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Alekhyaa Donthireddy</h2>

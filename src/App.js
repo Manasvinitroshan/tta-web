@@ -8,6 +8,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Brothers from './components/Brothers';
 import Home from './components/Home';
 import Rush from './components/Rush';
+import Sponsors from './components/Sponsors';
 
 function App(){
   return(
@@ -17,6 +18,7 @@ function App(){
     <Route path = '/' element = {<Home/>}/>
     <Route path = '/Brothers' element = {<Brothers/>}/>
     <Route path = '/Rush' element = {<Rush/>}/>
+    <Route path = '/Sponsors' element = {<Sponsors/>}/>
 
     </Routes>
     </BrowserRouter>
