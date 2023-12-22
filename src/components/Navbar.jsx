@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import '/Users/manassingh/Desktop/TTA-Website/ttaweb/src/index.css'; // Import your styles
+import '/Users/manassingh/Desktop/tta-web/src/index.css'; // Import your styles
 import {AiOutlineAim, AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { useNavigate} from 'react-router-dom';
 

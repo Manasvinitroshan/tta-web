@@ -19,7 +19,7 @@ const Hero = () => {
 
             <div className='justify-center'>
                     
-                    <button className='bg-[white] w-32 rounded-md text-black font-medium my-6 py-3 mx-auto' type="submit" onClick={() => navigate('/Rush')}>RUSH</button>
+                    <button className='bg-[white] w-32 rounded-md text-blue-900 font-medium my-6 py-3 mx-auto' type="submit" onClick={() => navigate('/Rush')}>RUSH</button>
                 </div>
 
 

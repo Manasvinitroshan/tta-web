@@ -4,6 +4,7 @@ import { useNavigate, useHistory } from 'react-router-dom';
 import Cards from './Cards';
 import Typed from 'react-typed'
 import Manas from '../assets/Manas.png'
+import Yash from '/Users/manassingh/Desktop/tta-web/src/assets/yash.JPG'
 import Avatar from '@mui/material/Avatar';
 import './CS.css';
 import Footer from './Footer'
@@ -203,8 +204,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Yash Narsian</h2>
+                    <Avatar alt="Yash" src={Yash} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem] my-5' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Yash Narsian</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of BMEN</p>

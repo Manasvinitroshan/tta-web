@@ -3,3 +3,75 @@
     border-bottom-width: 2px;
     color: black;
   }
+
+  body {
+    
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .title {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+    color: black;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    color: black;
+  }
+  
+  .date {
+    color: white;
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+    color: black;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: white;
+  }
+  
+  .workButton:hover {
+    background-color: black;
+  }
+  
+  .schoolButton {
+    background-color: white;
+  }
+  
+  .schoolButton:hover {
+    background-color: black;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+
+  .shift{
+
+    padding-bottom: 20;
+  }
