@@ -27,7 +27,7 @@ const Navbar = () => {
           <li className='p-4' type="submit" onClick={() => navigate('/Brothers')}>Brothers</li>
           <li className='p-4' type="submit" onClick={() => navigate('/Rush')}>Rush</li>
           <li className='p-4'type="submit" onClick={() => navigate('/Sponsors')}>Sponsors</li>
-          <li className='p-4'>FAQ's</li>
+          <li className='p-4'type="submit" onClick={() => navigate('/FAQ')}>FAQ</li>
           <li className='p-4'>Socials</li>
          
 

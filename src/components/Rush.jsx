@@ -14,7 +14,7 @@ const Rush = () => {
       </div>
     
       <div className='flex justify-center items-center my-10'>
-       
+       <Timeline/>
     </div>
       <Footer />
     </div>

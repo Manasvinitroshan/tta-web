@@ -9,7 +9,7 @@ import Brothers from './components/Brothers';
 import Home from './components/Home';
 import Rush from './components/Rush';
 import Sponsors from './components/Sponsors';
-
+import FAQ from './components/FAQ';
 function App(){
   return(
 
@@ -19,6 +19,7 @@ function App(){
     <Route path = '/Brothers' element = {<Brothers/>}/>
     <Route path = '/Rush' element = {<Rush/>}/>
     <Route path = '/Sponsors' element = {<Sponsors/>}/>
+    <Route path = '/FAQ' element = {<FAQ/>}/>
 
     </Routes>
     </BrowserRouter>
