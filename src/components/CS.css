@@ -75,3 +75,32 @@
 
     padding-bottom: 20;
   }
+
+  .center{
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-list-item::before {
+    content: '\2022'; /* Unicode character for a bullet point (•) */
+    color: black; /* Set the color of the bullet point */
+    display: inline-block;
+    width: 1em; /* Adjust the width of the space between the bullet point and the text */
+    margin-left: 1em; /* Offset to align the bullet point properly */
+    font-size: 1.5em;
+  }
+
+
+  .custom-list-item {
+    margin-bottom: 8px; /* Adjust the spacing between items as needed */
+  }
+
+  .black22{
+
+    color:black
+  }
+
+  .custom-margin {
+    margin-left: 20px; /* Adjust the margin value as needed */
+  }

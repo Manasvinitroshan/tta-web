@@ -10,6 +10,7 @@ import Home from './components/Home';
 import Rush from './components/Rush';
 import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ';
+import Socials from './components/Socials';
 function App(){
   return(
 
@@ -20,6 +21,7 @@ function App(){
     <Route path = '/Rush' element = {<Rush/>}/>
     <Route path = '/Sponsors' element = {<Sponsors/>}/>
     <Route path = '/FAQ' element = {<FAQ/>}/>
+    <Route path = '/Socials' element = {<Socials/>}/>
 
     </Routes>
     </BrowserRouter>

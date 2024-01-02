@@ -18,7 +18,7 @@ Theta Tau Alpha fosters a lasting brotherhood through mentorship programs, engag
             </div>
 
 
-            <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <div className='w-full shadow-xl flex flex-col p-4 my-4  rounded-lg hover:scale-105 duration-300'>
 
                 <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Service} alt='' ></img>
                 <h2 className='text-2xl font-bold text-center py-8'>Service</h2>

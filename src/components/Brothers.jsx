@@ -3,8 +3,24 @@ import Navbar from './Navbar'
 import { useNavigate, useHistory } from 'react-router-dom';
 import Cards from './Cards';
 import Typed from 'react-typed'
-import Manas from '../assets/Manas.png'
+import Manas from '../assets/default.png'
+import Manas1 from '../assets/manas1.png'
+import Syam from '../assets/syam.png'
 import Yash from '/Users/manassingh/Desktop/tta-web/src/assets/yash.JPG'
+import Nihanth from '/Users/manassingh/Desktop/tta-web/src/assets/nihanth.png'
+import Suraj from '/Users/manassingh/Desktop/tta-web/src/assets/suraj.png'
+import Neel from '/Users/manassingh/Desktop/tta-web/src/assets/neel.png'
+import Rujvi from '/Users/manassingh/Desktop/tta-web/src/assets/rujvi.png'
+import Ash from '/Users/manassingh/Desktop/tta-web/src/assets/ash.png'
+import Adi from '/Users/manassingh/Desktop/tta-web/src/assets/adi.png'
+import Manish from '/Users/manassingh/Desktop/tta-web/src/assets/manish.png'
+import Cody from '/Users/manassingh/Desktop/tta-web/src/assets/cody.png'
+import Ozair from '/Users/manassingh/Desktop/tta-web/src/assets/ozair.png'
+import Sid from '/Users/manassingh/Desktop/tta-web/src/assets/sid.png'
+import Alekhyaa from '/Users/manassingh/Desktop/tta-web/src/assets/alekhyaa.png'
+import Adic from '/Users/manassingh/Desktop/tta-web/src/assets/adic.png'
+import Aryamon from '/Users/manassingh/Desktop/tta-web/src/assets/aryamon.png'
+import Snehal from '/Users/manassingh/Desktop/tta-web/src/assets/snehal.png'
 import Avatar from '@mui/material/Avatar';
 import './CS.css';
 import Footer from './Footer'
@@ -25,8 +41,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Manas Singh</h2>
+                    <Avatar alt="Manas" src={Manas1} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Manas Singh</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>President</p>
@@ -47,8 +63,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Nihanth Attaluri</h2>
+                    <Avatar alt="Nihanth" src={Nihanth} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Nihanth Attaluri</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Vice-President</p>
@@ -68,8 +84,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Suraj Sidda</h2>
+                    <Avatar alt="Suraj" src={Suraj} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Suraj Sidda</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Finance</p>
@@ -89,8 +105,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Rujvi Doppalapudi
+                    <Avatar alt="Rujvi" src={Rujvi} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Rujvi Doppalapudi
                     </h2>
                     <div className='text-center font-medium'>
 
@@ -112,8 +128,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Ashar Alvany</h2>
+                    <Avatar alt="Ash" src={Ash} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Ashar Alvany</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Recruitment</p>
@@ -133,8 +149,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Neel Neupane</h2>
+                    <Avatar alt="Neel" src={Neel} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Neel Neupane</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Internal Affairs</p>
@@ -160,8 +176,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Syam Konala
+                    <Avatar alt="Syam" src={Syam} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Syam Konala
                     </h2>
                     <div className='text-center font-medium'>
 
@@ -183,8 +199,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Adi Devas</h2>
+                    <Avatar alt="Adi" src={Adi} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black px-4'>Adi Devas</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of CS</p>
@@ -204,7 +220,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Yash" src={Yash} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem] my-5' />
+                    <Avatar alt="Yash" src={Yash} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Yash Narsian</h2>
                     <div className='text-center font-medium'>
 
@@ -215,6 +231,20 @@ const Brothers = () => {
                     </div>
 
                 </div>
+
+                <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
+
+<Avatar alt="Manish" src={Manish} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+<h2 className='text-2xl font-bold text-center  text-black px-4'>Manish Mallik</h2>
+<div className='text-center font-medium'>
+
+    <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Industry Coordination</p>
+    <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
+    <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
+    <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
+</div>
+
+</div>
 
 
 
@@ -324,7 +354,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Adic} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Adithya Chintala</h2>
                     <div className='text-center font-medium'>
 
@@ -345,7 +375,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Ozair} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Ozair Kamran</h2>
                     <div className='text-center font-medium'>
 
@@ -369,7 +399,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Cody} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Cody Kerr</h2>
                     <div className='text-center font-medium'>
 
@@ -552,7 +582,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Sid} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Sid Sharma</h2>
                     <div className='text-center font-medium'>
 
@@ -645,7 +675,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Snehal} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Snehal Mazumder</h2>
                     <div className='text-center font-medium'>
 
@@ -667,7 +697,7 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white '>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <Avatar alt="Manas" src={Alekhyaa} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
                     <h2 className='text-2xl font-bold text-center  text-black'>Alekhyaa Donthireddy</h2>
                     <div className='text-center font-medium'>
 
@@ -688,8 +718,8 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Sitara Hariharan</h2>
+                    <Avatar alt="Manas" src={Aryamon} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black'>Aryaman Dashora</h2>
                     <div className='text-center font-medium'>
 
                         <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Member</p>

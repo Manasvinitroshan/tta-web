@@ -1,12 +1,12 @@
 let timelineElements = [
     {
       id: 1,
-      title: "Frontend Developer",
-      location: "Dragontail, Ascana",
+      title: "Meet the Brothers/Info Session",
+      location: "ECSW 1.315 (Clark Auditorium)",
       description:
-        "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+       "Join us for an informative session to meet the brothers of Theta Tau Alpha, an engineering fraternity committed to academic excellence and professional growth. Discover our values, activities, and how Theta Tau Alpha can enhance your engineering experience.",
       buttonText: "View Frontend Projects",
-      date: "August 2016 - present",
+      date: "February 2nd 2024",
       icon: "work",
     },
     {
@@ -37,7 +37,7 @@ let timelineElements = [
         "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       buttonText: "Course Certificate",
       date: "September 2011",
-      icon: "school",
+      icon: "work",
     },
     {
       id: 5,
@@ -47,7 +47,7 @@ let timelineElements = [
         "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       buttonText: "College Projects",
       date: "2007 - 2011",
-      icon: "school",
+      icon: "work",
     },
     {
       id: 6,
@@ -56,7 +56,7 @@ let timelineElements = [
       description:
         "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
       date: "2003 - 2007",
-      icon: "school",
+      icon: "work",
     },
   ];
   

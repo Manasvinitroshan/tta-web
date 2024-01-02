@@ -11,7 +11,7 @@ const Footer = () => {
      const instagramPageUrl = 'https://www.instagram.com/thetatauaplha/'
   return (
     <div className='w-full mx-auto py-16 px-4 grid lg:grid-cols-1 gap-8 text-gray-300'>
-      <div>
+      <div className='mx-auto w-[75%]'>
         <h1 className='w-full text-3xl font-bold text-[white]'>ΘTA.</h1>
         <p className='py-3'>© THETA TAU ALPHA ALPHA COLONY ALL RIGHTS RESERVED</p>
         <div className='flex justify-between md:w-[75%] my-6'>
