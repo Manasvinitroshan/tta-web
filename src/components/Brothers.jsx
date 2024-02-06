@@ -6,21 +6,21 @@ import Typed from 'react-typed'
 import Manas from '../assets/default.png'
 import Manas1 from '../assets/manas1.png'
 import Syam from '../assets/syam.png'
-import Yash from '/Users/manassingh/Desktop/tta-web/src/assets/yash.JPG'
-import Nihanth from '/Users/manassingh/Desktop/tta-web/src/assets/nihanth.png'
-import Suraj from '/Users/manassingh/Desktop/tta-web/src/assets/suraj.png'
-import Neel from '/Users/manassingh/Desktop/tta-web/src/assets/neel.png'
-import Rujvi from '/Users/manassingh/Desktop/tta-web/src/assets/rujvi.png'
-import Ash from '/Users/manassingh/Desktop/tta-web/src/assets/ash.png'
-import Adi from '/Users/manassingh/Desktop/tta-web/src/assets/adi.png'
-import Manish from '/Users/manassingh/Desktop/tta-web/src/assets/manish.png'
-import Cody from '/Users/manassingh/Desktop/tta-web/src/assets/cody.png'
-import Ozair from '/Users/manassingh/Desktop/tta-web/src/assets/ozair.png'
-import Sid from '/Users/manassingh/Desktop/tta-web/src/assets/sid.png'
-import Alekhyaa from '/Users/manassingh/Desktop/tta-web/src/assets/alekhyaa.png'
-import Adic from '/Users/manassingh/Desktop/tta-web/src/assets/adic.png'
-import Aryamon from '/Users/manassingh/Desktop/tta-web/src/assets/aryamon.png'
-import Snehal from '/Users/manassingh/Desktop/tta-web/src/assets/snehal.png'
+import Yash from '../assets/yash.JPG'
+import Nihanth from '../assets/nihanth.png';
+import Suraj from '../assets/suraj.png'
+import Neel from '../assets/neel.png'
+import Rujvi from '../assets/rujvi.png'
+import Ash from '../assets/ash.png'
+import Adi from '../assets/adi.png'
+import Manish from '../assets/manish.png'
+import Cody from '../assets/cody.png'
+import Ozair from '../assets/ozair.png'
+import Sid from '../assets/sid.png'
+import Alekhyaa from '../assets/alekhyaa.png'
+import Adic from '../assets/../assets/adic.png'
+import Aryamon from '../assets/aryamon.png'
+import Snehal from '../assets/snehal.png'
 import Avatar from '@mui/material/Avatar';
 import './CS.css';
 import Footer from './Footer'
@@ -246,7 +246,19 @@ const Brothers = () => {
 
 </div>
 
+<div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
+                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black'>Thejaswin Kumaran</h2>
+                    <div className='text-center font-medium'>
+
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of External Affairs</p>
+                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
+                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
+                        <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -308,7 +320,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black'>Mati Rajesh</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Chairman Of CE</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Inactive Member</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CE</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -332,12 +344,12 @@ const Brothers = () => {
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
-                    <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Shashi Rajesh</h2>
+                    <Avatar alt="Manas" src={Sid} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
+                    <h2 className='text-2xl font-bold text-center  text-black'>Sid Sharma</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Chairman of CE</p>
-                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CE</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Member</p>
+                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: BMEN</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
                     </div>
@@ -533,7 +545,6 @@ const Brothers = () => {
 
 
 
-
             <div className='max-w-[1240px] mx-auto mt-12 grid md:grid-cols-3 gap-20'>
 
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
@@ -552,43 +563,16 @@ const Brothers = () => {
                 </div>
 
 
-
-
-
-
-
-
-
                 <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
 
                     <Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Thejaswin Kumaran</h2>
+                    <h2 className='text-2xl font-bold text-center  text-black'>Sathvik Kasireddy
+                    </h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Member</p>
-                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
-                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
-                        <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-
-                <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
-
-                    <Avatar alt="Manas" src={Sid} sx={{ width: 250, height: 250 }} className='mx-auto mt-[3rem]' />
-                    <h2 className='text-2xl font-bold text-center  text-black'>Sid Sharma</h2>
-                    <div className='text-center font-medium'>
-
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Member</p>
-                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: BMEN</p>
-                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Chairman Of Industry Coordination</p>
+                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CIS</p>
+                        <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
                     </div>
 

@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 
 const Footer = () => {
-     const instagramPageUrl = 'https://www.instagram.com/thetatauaplha/'
+     const instagramPageUrl = 'https://www.instagram.com/ttautd/'
   return (
     <div className='w-full mx-auto py-16 px-4 grid lg:grid-cols-1 gap-8 text-gray-300'>
       <div className='mx-auto w-[75%]'>
