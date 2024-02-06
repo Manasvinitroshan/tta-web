@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingPage from '/Users/manassingh/Desktop/tta-web/src/LandingPage.jsx'
+import LandingPage from '../LandingPage'
 import Footer from './Footer'
 
 const Home = () => {
