@@ -88,7 +88,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Suraj Sidda</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Finance</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Treasurer</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: Undeclared</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -110,7 +110,7 @@ const Brothers = () => {
                     </h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Fundraiser</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Secretary</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS and DS</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -132,7 +132,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Ashar Alvany</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Recruitment</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Recruitment</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -153,7 +153,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Neel Neupane</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Internal Affairs</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Internal Affairs</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -181,7 +181,7 @@ const Brothers = () => {
                     </h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of Marketing</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Logistics</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: BMEN</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -203,7 +203,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Adi Devas</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of CS</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Marketing</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS and DS</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
@@ -224,7 +224,7 @@ const Brothers = () => {
                     <h2 className='text-2xl font-bold text-center  text-black px-4'>Yash Narsian</h2>
                     <div className='text-center font-medium'>
 
-                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>VP of BMEN</p>
+                        <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Director of Project Managment</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: BMEN</p>
                         <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2025</p>
                         <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
