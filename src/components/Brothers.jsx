@@ -578,6 +578,21 @@ const Brothers = () => {
 
                 </div>
 
+                <div className='w-full shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-300 bg-white'>
+
+<Avatar alt="Manas" src={Manas} sx={{ width: 150, height: 150 }} className='mx-auto mt-[3rem]' />
+<h2 className='text-2xl font-bold text-center  text-black'>Rahul Karthik
+</h2>
+<div className='text-center font-medium'>
+
+    <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>Member</p>
+    <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: CS</p>
+    <p className='py-2 border-b2 mx-8 text-black text-xl'>Class of 2026</p>
+    <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
+</div>
+
+</div>
+
 
 
             </div>

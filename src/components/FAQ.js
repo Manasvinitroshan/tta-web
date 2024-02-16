@@ -17,7 +17,7 @@ const FAQ = () => {
 
                     
 <h1 className='text-3xl font-bold text-center  text-black'>Q: What kind of organization is Theta Tau Alpha?</h1>
-<h2 className='text-black  mt-2'>A: Theta Tau is a professional engineering fraternity. The purpose of Theta Tau is to develop and maintain a high standard of professional interest among its members, and to unite them in a strong bond of fraternal fellowship. We separate ourselves from being a social fraternity because we emphasize professionalism as a common goal. Nonetheless, we hold many social events, such as intramural sports, camping, and fraternity potluck dinners, all of which foster brotherhood.</h2>
+<h2 className='text-black  mt-2'>A: Theta Tau Alpha is a professional engineering fraternity. The purpose of Theta Tau Alpha is to develop and maintain a high standard of professional interest among its members, and to unite them in a strong bond of fraternal fellowship. We separate ourselves from being a social fraternity because we emphasize professionalism as a common goal. Nonetheless, we hold many social events, such as intramural sports, camping, and fraternity potluck dinners, all of which foster brotherhood.</h2>
 
 
 </div>
@@ -81,7 +81,7 @@ const FAQ = () => {
 
                     
 <h1 className='text-3xl font-bold text-center  text-black'>Q: What is a “bid” and how do I receive one?</h1>
-<h2 className='text-black text-center'>A: A “bid” is a formal invitation to pledge a fraternity. Bids are given out to rushees who have shown potential of being a good member of Theta Tau. To receive a bid, come out to the rush events. Get to know the current members, as the chances of receiving a bid increase by doing so. Immediately after the rush events, be sure to submit the “Interview Sign-Up” form on our website. After the interviews, the members will hold a meeting to determine which rushees may move on to the pledging process. If the members decide to allow the rushee to continue to the pledging process, that rushee will receive a bid.</h2>
+<h2 className='text-black text-center'>A: A “bid” is a formal invitation to pledge a fraternity. Bids are given out to rushees who have shown potential of being a good member of Theta Tau Alpha. To receive a bid, come out to the rush events. Get to know the current members, as the chances of receiving a bid increase by doing so. Immediately after the rush events, be sure to submit the “Interview Sign-Up” form on our website. After the interviews, the members will hold a meeting to determine which rushees may move on to the pledging process. If the members decide to allow the rushee to continue to the pledging process, that rushee will receive a bid.</h2>
 
 
 </div>
@@ -117,7 +117,7 @@ const FAQ = () => {
 <div className='w-15 shadow-xl flex flex-col p-4 mt-10 rounded-lg hover:scale-105 duration-150 bg-white mx-10'>
 
                     
-<h1 className='text-3xl font-bold text-center  text-black'>Q: May I still join Theta Tau if I am already in another fraternity/sorority?</h1>
+<h1 className='text-3xl font-bold text-center  text-black'>Q: May I still join Theta Tau Alpha if I am already in another fraternity/sorority?</h1>
 <h2 className='text-black text-center'>A: Yes, as long as you are not in any competitive professional fraternities you are welcome to rush!</h2>
 
 
@@ -127,7 +127,7 @@ const FAQ = () => {
 
                     
 <h1 className='text-3xl font-bold text-center  text-black'>Q: I have more questions!</h1>
-<h2 className='text-black text-center'>A: We have more answers! If you have any other questions, please contact the Rush Chair or the Pledge Marshal. Either one of them will be happy to answer them for you. If they are not available, then reach us out on our socials, we would be happy to help you there!</h2>
+<h2 className='text-black text-center'>A: We have more answers! If you have any other questions, please contact the Rush Chair or the Director of Internal Affairs. Either one of them will be happy to answer them for you. If they are not available, then reach us out on our socials, we would be happy to help you there!</h2>
 
 
 </div>

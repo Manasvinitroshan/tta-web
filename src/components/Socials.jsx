@@ -25,18 +25,20 @@ const Socials = () => {
 
         
         <div className='flex flex-col'>
-        <input type="Name" placeholder='Enter Name' className='p-3 flex w-[400px] rounded-md text-black justify-center border-2 border-black mx-4 mt-4' ></input>
-        <input type="Email" placeholder='Enter Email' className='p-3 flex w-[400px] rounded-md text-black justify-center border-2 border-black mt-4 mx-4' ></input>
+       <form action="https://formsubmit.co/e1525ca675047508e95eec499f1db5ff" method="POST">
+       <input type="text" placeholder='Enter Name' className='p-3 flex w-[400px] rounded-md text-black justify-center border-2 border-black mx-4 mt-4' ></input>
+        <input type="email" name='email' placeholder='Enter Email' className='p-3 flex w-[400px] rounded-md text-black justify-center border-2 border-black mt-4 mx-4' ></input>
         <div>
-          <textarea type="Text" placeholder='How can we help you?' className='p-3 flex w-[400px] h-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 mb-4 flex-col ' ></textarea>
+          <textarea type="text" name='text' placeholder='How can we help you?' className='p-3 flex w-[400px] h-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 mb-4 flex-col ' ></textarea>
           <div className='center'>
-        <button className='bg-[black] w-32 rounded-md text-white font-medium my-6 py-3 mx-auto ml-4'>Submit</button>
+        <button type='submit' className='bg-[black] w-32 rounded-md text-white font-medium my-6 py-3 mx-auto ml-4'>Submit</button>
         </div>
         </div>
+       </form>
         </div>
         <div className='flex-row'>
-        <input type="Phone Number" placeholder='Phone Number' className='p-3 flex w-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 ' ></input>
-        <input type="Subject" placeholder='Subject' className='p-3 flex w-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 mb-4 ' ></input>
+        <input  type="tel" name='phone' placeholder='Phone Number' className='p-3 flex w-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 ' ></input>
+        <input type="text" name='subject' placeholder='Subject' className='p-3 flex w-[400px] rounded-md text-black justify-center mt-4 border-2 border-black mx-4 mb-4 ' ></input>
 
         
         </div>
@@ -48,8 +50,7 @@ const Socials = () => {
         
       </div>
       
-      <script src='https://smtpjs.com/v3/smtp.js'> </script>
-      <script src='script.js'></script>
+  
      
     <Footer />
   </div>
