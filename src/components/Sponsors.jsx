@@ -15,6 +15,7 @@ import { SiDevpost } from "react-icons/si";
 import { IoMdLink } from "react-icons/io";
 import './CS.css';
 const Sponsors = () => {
+  const NOTEPALURL = 'http://notepal.ttautd.com/'
   return (
     <div className='text-white'>
       <Navbar />
@@ -88,11 +89,11 @@ const Sponsors = () => {
     <li className='custom-list-item'>Helped 31K UTD students connect with 300+ clubs on campus</li>
   </ul>
 
-  <div className='flex justify-between md:w-[100%] my-6'>
-
-    <FaGithubSquare size={100} className='black22' />
-    <SiDevpost size={100} className='black22' />
-    <IoMdLink size={100} className='black22' />
+  <div className='flex justify-center items-center md:w-[100%] my-6'>
+    <a href={NOTEPALURL} target="_blank" rel="noopener noreferrer">
+      <IoMdLink size={100} className='black22' />
+    </a>
+    
   </div>
 </div>
 </div>
