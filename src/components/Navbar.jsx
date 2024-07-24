@@ -16,11 +16,11 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl font-bold text-[white]'type="submit" onClick={() => navigate('/')}> ΘTA.</h1>
       <ul className='hidden md:flex'>
-        <li className='p-4'type="submit" onClick={() => navigate('/Brothers')}>Brothers</li>
-        <li className='p-4'type="submit" onClick={() => navigate('/Rush')}>Rush</li>
-        <li className='p-4'type="submit" onClick={() => navigate('/Sponsors')}>Projects</li>
-        <li className='p-4'type="submit" onClick={() => navigate('/FAQ')}>FAQs</li>
-        <li className='p-4'type="submit" onClick={() => navigate('/Socials')}>Connect</li>
+        <li className='p-4'type="submit" onClick={() => navigate('/Brothers')} onmouseover=font.bold>Brothers</li>
+        <li className='p-4'type="submit" onClick={() => navigate('/Rush')}onmouseover=font.lightgrey>Rush</li>
+        <li className='p-4'type="submit" onClick={() => navigate('/Sponsors')}onmouseover=font.lightgrey>Projects</li>
+        <li className='p-4'type="submit" onClick={() => navigate('/FAQ')}onmouseover=font.lightgrey>FAQs</li>
+        <li className='p-4'type="submit" onClick={() => navigate('/Socials')}onmouseover=font.lightgrey>Connect</li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
