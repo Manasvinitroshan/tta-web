@@ -28,27 +28,23 @@ import Suhas from '../assets/default.png';
 import Nandan from '../assets/default.png';
 
 const members = [
-  { name: 'Manas Singh', role: 'Regent', major: 'CS and SE', class: 'Class of 2025', image: Manas1 },
-  { name: 'Nihanth Attaluri', role: 'Vice-President', major: 'CS', class: 'Class of 2025', image: Nihanth },
-  { name: 'Suraj Sidda', role: 'Treasurer', major: 'Undeclared', class: 'Class of 2025', image: Suraj },
-  { name: 'Rujvi Doppalapudi', role: 'Secretary', major: 'CS and DS', class: 'Class of 2025', image: Rujvi },
-  { name: 'Ashar Alvany', role: 'Director of Recruitment', major: 'CS', class: 'Class of 2025', image: Ash },
-  { name: 'Neel Neupane', role: 'Director of Internal Affairs', major: 'CS', class: 'Class of 2026', image: Neel },
-  { name: 'Syam Konala', role: 'Director of Logistics', major: 'BMEN', class: 'Class of 2026', image: Syam },
-  { name: 'Adi Devas', role: 'Director of Marketing', major: 'CS and DS', class: 'Class of 2025', image: Adi },
-  { name: 'Yash Narsian', role: 'Director of Project Management', major: 'BMEN', class: 'Class of 2025', image: Yash },
-  { name: 'Manish Mallik', role: 'Director of Industry Coordination', major: 'CS', class: 'Class of 2025', image: Manish },
-  { name: 'Thejaswin Kumaran', role: 'External Affairs Head', major: 'CS', class: 'Class of 2026', image: Thejaswin },
-  { name: 'Aryan Punjabi', role: 'Chairman of Fundraising', major: 'CS', class: 'Class of 2026', image: Aryan },
-  { name: 'Sai Haneesh Tummalapalli', role: 'Chairman Of CS', major: 'CS', class: 'Class of 2026', image: Sai },
-  { name: 'Mati Rajesh', role: 'Inactive Member', major: 'CE', class: 'Class of 2026', image: Mati },
-  { name: 'Sid Sharma', role: 'Member', major: 'BMEN', class: 'Class of 2026', image: Sid },
-  { name: 'Adithya Chintala', role: 'Chairman Of CS', major: 'CS', class: 'Class of 2026', image: Adic },
-  { name: 'Ozair Kamran', role: 'Chairman Of Marketing', major: 'CS', class: 'Class of 2026', image: Ozair },
-  { name: 'Cody Kerr', role: 'Member', major: 'CS', class: 'Class of 2026', image: Cody },
-  { name: 'Nehith Gopireddy', role: 'Member', major: 'CS', class: 'Class of 2026', image: Nehith },
-  { name: 'Suhas Shivaraju', role: 'Member', major: 'CS', class: 'Class of 2026', image: Suhas },
-  { name: 'Nandan Pabolu', role: 'Member', major: 'CS', class: 'Class of 2026', image: Nandan }
+  { name: 'Manas Singh', role: 'Regent', major: 'SE', class: 'Class of 2025',image: Manas1,memberClass: 'Infinity Class' },
+  { name: 'Nihanth Attaluri', role: 'Vice-Regent', major: 'CS', class: 'Class of 2025', image: Nihanth,memberClass: 'Infinity Class' },
+  { name: 'Aryan Punjabi', role: 'Scribe', major: 'CS', class: 'Class of 2026', image: Aryan,memberClass: 'Infinity Class' },
+  { name: 'Rujvi Doppalapudi', role: 'Secretary', major: 'CS and DS', class: 'Class of 2025', image: Rujvi,memberClass: 'Infinity Class' },
+  { name: 'Syam Konala', role: 'Director of Marketing', major: 'BMEN', class: 'Class of 2026', image: Syam,memberClass: 'Infinity Class' },
+  { name: 'Yash Narsian', role: 'New Member Education Member', major: 'BMEN', class: 'Class of 2025', image: Yash,memberClass: 'Infinity Class' },
+  { name: 'Thejaswin Kumaran', role: 'External Affairs Head', major: 'CS', class: 'Class of 2026', image: Thejaswin,memberClass: 'Infinity Class' },
+  { name: 'Sai Haneesh Tummalapalli', role: 'Professional Dev Member', major: 'CS', class: 'Class of 2026', image: Sai,memberClass: 'Infinity Class' },
+  { name: 'Sid Sharma', role: 'Member', major: 'BMEN', class: 'Class of 2026', image: Sid,memberClass: 'Infinity Class' },
+  { name: 'Adithya Chintala', role: 'Project Lead', major: 'CS', class: 'Class of 2026', image: Adic,memberClass: 'Infinity Class' },
+  { name: 'Ozair Kamran', role: 'Project Lead', major: 'CS', class: 'Class of 2026', image: Ozair,memberClass: 'Infinity Class'},
+  { name: 'Cody Kerr', role: 'Member', major: 'CS', class: 'Class of 2026', image: Cody,memberClass: 'Infinity Class' },
+  { name: 'Nehith Gopireddy', role: 'Member', major: 'CS', class: 'Class of 2026', image: Nehith,memberClass: 'Infinity Class' },
+  { name: 'Suhas Shivaraju', role: 'Industry Coordination and Finance Member', major: 'CS', class: 'Class of 2026', image: Suhas,memberClass: 'Infinity Class' },
+  { name: 'Nandan Pabolu', role: 'Professional Dev Member', major: 'CS', class: 'Class of 2026', image: Nandan,memberClass: 'Infinity Class' },
+  { name: 'Adi Devas', role: 'Social Commitee Head', major: 'CS and DS', class: 'Class of 2025', image: Adi,memberClass: 'Infinity Class' },
+  { name: 'Ashar Alvany', role: 'Alumni', major: 'CS', class: 'Class of 2025', image: Ash,memberClass: 'Infinity Class' }
 ];
 
 const Brothers = () => {
@@ -88,7 +84,7 @@ const Brothers = () => {
                 <p className='py-2 border-b2 mx-8 mt-8 text-black text-xl'>{member.role}</p>
                 <p className='py-2 border-b2 mx-8 text-black text-xl'>Major: {member.major}</p>
                 <p className='py-2 border-b2 mx-8 text-black text-xl'>{member.class}</p>
-                <p className='py-2 mx-8 text-black text-xl'>Alpha Class</p>
+                <p className='py-2 mx-8 text-black text-xl'>{member.memberClass}</p>
               </div>
             </div>
           ))}
