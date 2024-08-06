@@ -1,5 +1,14 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Typed from 'react-typed';
+import oracleLogo from '../assets/oracle-logo-large-white-1.png';
+import statefarm from '../assets/State-Farm-Logo.webp';
+import fujitsu from '../assets/Fujitsu-emblem.jpg'
+import goldman from '../assets/goldman-sachs-new-2022-white-logo-39E22A40E2-seeklogo.com.png'
+import JPMC from '../assets/JPMC.jpg'
+import Infosys from '../assets/infosys-logo-infosys-icon-free-free-vector.jpg'
+import IBM from '../assets/ibm-logo-white.png'
+import LM from '../assets/white_lockheed_martin_logo_by_juanking334_dgf03rb-fullview.png' 
 
 
 const Newsletter = () => {
@@ -7,38 +16,29 @@ const Newsletter = () => {
   return (
     <div className='w-full py-16 text-white bg-black-900'>
         
-        <div className='max-w-[1240 px] mx-auto grid lg:grid-cols-3'>
-            <div className='lg:col-span-2 my-4 lg:mx-6 ml-auto'>
-                
+        <div className='flex justify-center items-center'>
+        <Typed
+          className='md:text-5xl sm:text-6xl text-xl font-bold pl-2 text-center'
+          strings={['Where our mentors work']}
+          typeSpeed={50}
+          backSpeed={75}
+        />
+      </div>
 
-                <h1 className='md:text-xl sm:text-xl text-xl font-bold mx-4'>See what's up and coming about ΘTA</h1>
-                <p className='mx-4'>Sign up to our newsletter to get consistent updates!</p>
-               
-                
-            </div>
-
-            <div className='my-4'>
-
-            <div className='flex flex-col sm:flex-row items-center justify-between w-full ml-auto'>
-
-            <input
-  type="email"
-  placeholder="Enter Email"
-  className="p-3 flex w-full rounded-md text-black mx-2 ml-auto"
-/>
-<button className=' w-32 rounded-md ml-auto font-medium my-6 py-3 mx-auto md:ml-auto text-black bg-white' type="submit" onClick={() => navigate('Brothers')} >Notify Me</button>
-
-</div>
-
-            </div>
-
-            
-             
-                
-            <div>
-
-            </div>
+      <div className='mt-12'>
+      <div className='max-w-[1240px] mx-auto mt-12 grid md:grid-cols-3 gap-20'>
+        <img src={oracleLogo}/>
+        <img src={statefarm}/>
+        <img src={fujitsu}/>
+        <img src={goldman}/>
+        <img src={JPMC}/>
+        <img src={Infosys}/>
+        <img src={IBM}/>
+        <img src={LM}/>
         </div>
+
+      </div>
+        
     
     </div>
   )

@@ -12,29 +12,56 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[100%] mx-auto px-4 text-white'>
-      <h1 className='w-full text-3xl font-bold text-[white]' onClick={() => navigate('/')}>ΘTA</h1>
+      {/* Logo with cursor-pointer class */}
+      <h1
+        className='w-full text-3xl font-bold text-white cursor-pointer'
+        onClick={() => navigate('/')}
+      >
+        ΘTA
+      </h1>
+
+      {/* Desktop Menu */}
       <ul className='hidden md:flex'>
-        <li className='p-4' onClick={() => navigate('/Brothers')} onMouseOver={() => {}}>Brothers</li>
-        <li className='p-4' onClick={() => navigate('/Rush')} onMouseOver={() => {}}>Rush</li>
-        <li className='p-4' onClick={() => navigate('/Sponsors')} onMouseOver={() => {}}>Projects</li>
-        <li className='p-4' onClick={() => navigate('/FAQ')} onMouseOver={() => {}}>FAQs</li>
-        <li className='p-4' onClick={() => navigate('/Socials')} onMouseOver={() => {}}>Connect</li>
+        {['Brothers', 'Rush', 'Projects', 'FAQs', 'Connect'].map((item, index) => (
+          <li
+            key={index}
+            className='p-4 cursor-pointer hover:text-gray-400'
+            onClick={() => navigate(`/${item}`)}
+          >
+            {item}
+          </li>
+        ))}
       </ul>
-      <div onClick={handleNav} className='block md:hidden'>
+
+      {/* Mobile Menu Button */}
+      <div onClick={handleNav} className='block md:hidden cursor-pointer'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-      <ul className={
-  nav ? 
-  'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] bg-opacity-100 ease-in-out duration-500 z-50' : 
-  'ease-in-out duration-500 fixed left-[-100%] z-50'
-}>
-  <h1 className='w-full text-3xl font-bold text-[white] m-4' onClick={() => navigate('/')}>ΘTA</h1>
-  <li className='p-4 border-b border-gray-600' onClick={() => navigate('/Brothers')}>Brothers</li>
-  <li className='p-4 border-b border-gray-600' onClick={() => navigate('/Rush')}>Rush</li>
-  <li className='p-4 border-b border-gray-600' onClick={() => navigate('/Sponsors')}>Projects</li>
-  <li className='p-4 border-b border-gray-600' onClick={() => navigate('/FAQ')}>FAQs</li>
-  <li className='p-4' onClick={() => navigate('/Socials')}>Connect</li>
-</ul>
+
+      {/* Mobile Menu */}
+      <ul
+        className={
+          nav
+            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] bg-opacity-100 ease-in-out duration-500 z-50'
+            : 'fixed left-[-100%] ease-in-out duration-500 z-50'
+        }
+      >
+        <h1
+          className='w-full text-3xl font-bold text-white m-4 cursor-pointer'
+          onClick={() => navigate('/')}
+        >
+          ΘTA
+        </h1>
+        {['Brothers', 'Rush', 'Projects', 'FAQs', 'Connect'].map((item, index) => (
+          <li
+            key={index}
+            className='p-4 border-b border-gray-600 cursor-pointer hover:text-gray-400'
+            onClick={() => navigate(`/${item}`)}
+          >
+            {item}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

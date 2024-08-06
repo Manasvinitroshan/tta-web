@@ -3,7 +3,7 @@ import Typed from 'react-typed'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-const Socials = () => {
+const Connect = () => {
   return (
     <div className='text-white'>
       <Navbar />
@@ -29,4 +29,4 @@ const Socials = () => {
   )
 }
 
-export default Socials
+export default Connect

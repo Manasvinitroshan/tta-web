@@ -8,9 +8,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Brothers from './components/Brothers';
 import Home from './components/Home';
 import Rush from './components/Rush';
-import Sponsors from './components/Sponsors';
-import FAQ from './components/FAQ';
-import Socials from './components/Socials';
+import Projects from './components/Projects';
+import FAQs from './components/FAQs';
+import Connect from './components/Conect';
 function App(){
   return(
 
@@ -19,9 +19,9 @@ function App(){
     <Route path = '/' element = {<Home/>}/>
     <Route path = '/Brothers' element = {<Brothers/>}/>
     <Route path = '/Rush' element = {<Rush/>}/>
-    <Route path = '/Sponsors' element = {<Sponsors/>}/>
-    <Route path = '/FAQ' element = {<FAQ/>}/>
-    <Route path = '/Socials' element = {<Socials/>}/>
+    <Route path = '/Projects' element = {<Projects/>}/>
+    <Route path = '/FAQs' element = {<FAQs/>}/>
+    <Route path = '/Connect' element = {<Connect/>}/>
 
     </Routes>
     </BrowserRouter>
