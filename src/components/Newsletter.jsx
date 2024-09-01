@@ -26,7 +26,7 @@ const Newsletter = () => {
       </div>
 
       <div className='mt-12'>
-      <div className='max-w-[1240px] mx-auto mt-12 grid md:grid-cols-3 gap-20'>
+      <div className='max-w-[1240px] mx-auto mt-2 grid md:grid-cols-3 gap-12'>
         <img src={oracleLogo}/>
         <img src={statefarm}/>
         <img src={fujitsu}/>
